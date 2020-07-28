@@ -11,12 +11,8 @@ function Menu() {
                 <img src={Logo} alt="CharlieFlix logo" className="Logo" />
             </a>
 
-            <ButtonLink href="/" className="ButtonLink">
+            <Button className="ButtonLink" as="a" href="/">
                 Novo vídeo
-            </ButtonLink>
-
-            <Button className="ButtonLink" as="a">
-                Teste styled components
             </Button>
         </nav>
     );
